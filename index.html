@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=720,target-densitydpi=320, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>Canvas</title>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+
+<div class="load-container load3">
+	<div class="loader">Loading...</div>
+</div>
+
+
+<div class="main" style="opacity:0;">
+
+<div class="header">
+	<div class="header_img"><img src="images/logo.png" alt=""></div>
+	<span class="header_text">魔域迷宫</span>
+	<a href="javascript:;" class="header_bun">立即下载</a>
+</div><!-- 顶部悬浮框 -->
+
+<a href="newsList.html"><div class="suspension">详情</div></a><!-- 详情悬浮框 -->
+
+<div class="page_slide1"></div>
+<div class="page_slide2"></div>
+<div class="page_slide3"></div>
+<div class="page_slide4"></div>
+
+<div id="dowebok" >
+	<div class="section section1">
+		<div class="dragon"><img src="images/dragon.png" /></div>
+		<div class="page1_text"><img src="images/page1_text.png" alt=""></div>
+	</div><!-- 第一屏 -->
+
+	<div class="section">
+		<div class="slide section2">
+			<div class="page2_text"><img src="images/ice_text.png" alt=""></div>
+		</div>
+		<div class="slide section3">
+			<div class="page2_text"><img src="images/ice_text.png" alt=""></div>
+		</div>
+        <div class="slide section4">
+        	<div class="page2_text"><img src="images/fire_text.png" alt=""></div>
+        </div>
+        <div class="slide section5">
+        	<div class="page2_text"><img src="images/fire_text.png" alt=""></div>
+        </div>
+        <div class="slide section6">
+        	<div class="page2_text"><img src="images/wood_text.png" alt=""></div>
+        </div>
+        <div class="slide section7">
+        	<div class="page2_text"><img src="images/wood_text.png" alt=""></div>
+        </div>
+        <div class="slide section8">
+        	<div class="page2_text"><img src="images/electricity_text.png" alt=""></div>
+        </div>
+        <div class="slide section9">
+        	<div class="page2_text"><img src="images/electricity_text.png" alt=""></div>
+        </div>
+	</div><!-- 第二屏 -->
+
+	<div class="section section10">
+		<!-- 导航 -->
+		<div class="newsList">
+			<a href="newsMain.html">
+				<dl>
+					<dt>
+						<span class="newsList_name">全新装备：装备打造</span>
+						<div class="newsList_time">2016-7-21</div>
+					</dt>
+					<dd class="newsList_img">
+						<img src="images/01.jpg" alt="">
+					</dd>
+				</dl>
+			</a>
+			<a href="newsMain.html">
+				<dl>
+					<dt>
+						<span class="newsList_name">全新装备：装备打造</span>
+						<div class="newsList_time">2016-7-21</div>
+					</dt>
+					<dd class="newsList_img">
+						<img src="images/02.jpg" alt="">
+					</dd>
+				</dl>
+			</a>
+			<a href="newsMain.html">
+				<dl>
+					<dt>
+						<span class="newsList_name">全新装备：装备打造</span>
+						<div class="newsList_time">2016-7-21</div>
+					</dt>
+					<dd class="newsList_img">
+						<img src="images/03.jpg" alt="">
+					</dd>
+				</dl>
+			</a>
+			<a href="newsMain.html">
+				<dl>
+					<dt>
+						<span class="newsList_name">全新装备：装备打造</span>
+						<div class="newsList_time">2016-7-21</div>
+					</dt>
+					<dd class="newsList_img">
+						<img src="images/04.jpg" alt="">
+					</dd>
+				</dl>
+			</a>
+		</div>
+	</div><!-- 第三屏 -->
+
+	<div class="section section11">
+		<!-- 底部 -->
+		<div class="footer">
+			
+			<ul class="f_marketing">
+				<li class="weixin"><span>微信公众号</span></li>
+				<li class="sina"><span>新浪微博</span></li>
+				<li class="QQ"><span>官方QQ群</span></li>
+			</ul>
+			
+			<h6>长按下方二维码<br />识别关注微信公众号</h6>
+			<div class="f_qrcode">
+				<img src="images/qrcode.jpg" alt="">
+			</div>
+
+			<!-- 回到顶部 -->
+			<div class="footer_up2">返回顶部</div>
+			<!-- 网站信息 -->
+			<div class="footer_data">
+				<ul class="f_remind">
+					<li>抵制不良游戏</li>
+					<li>谨防上当受骗</li>
+					<li>适度游戏益脑</li>
+					<li>沉迷游戏伤身</li>
+					<li>合理安排时间</li>
+					<li>享受健康生活</li>
+				</ul>
+				<p class="f_PutOnRecord">
+					文网文：浙网文[2015 ]0152-002号<br />
+					ICP证：浙B2-20150259<br />
+					浙公网安备：110105019888号
+				</p><br />
+				<p class="f_copyright">素宏网络公司版权所有</p>
+			</div>	
+		</div>
+	</div><!-- 第四屏 -->
+
+</div>
+
+
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="http://cdn.bootcss.com/jQuery-slimScroll/1.3.1/jquery.slimscroll.min.js"></script>
+<script src="js/zzc.js"></script>
+<script>
+$(function(){
+
+
+
+var canvas=new Canvas({
+	imgSrc:{
+		page1_eye:"images/page1_eye.png",
+		page1_character:"images/page1_character.png",
+		speedLine:"images/speedLine.png",
+		aperture:"images/aperture.png",
+		page2_monster1:"images/page2_monster.png",
+		page2_monster2:"images/page2_1_1monster.png",
+		page2_monster3:"images/page2_3monster.png",
+		page2_monster4:"images/page2_3_2monster.png",
+		page2_monster5:"images/page2_2monster.png",
+		page2_monster6:"images/page2_2_2monster.png",
+		page2_monster7:"images/page2_4monster.png",
+		page2_monster8:"images/page2_4_2monster.png"
+	},
+	canvasSet:[
+		{
+			obj:$(".section1"),
+			img:[
+				{name:["page1_eye"],maxWidth:1200,maxHeight:100,minWidth:300,minHeight:100,x:217,y:-134,id:"page1_eye",time:200,interval:3200},
+				{name:["page1_character"],maxWidth:7920,maxHeight:800,minWidth:720,minHeight:730,x:-11,y:30,id:"page1_character",time:150},
+				{name:["speedLine"],maxWidth:2160,maxHeight:1226,minWidth:720,minHeight:1187,x:0,y:1,id:"test3",time:83},
+			]
+		},
+		{
+			obj:$(".section2"),
+			img:[
+				{name:["aperture"],maxWidth:10080,maxHeight:645,minWidth:720,minHeight:645,x:0,y:-118,display:true,id:"IDaperture1",time:60,cycle:true,interval:2400},
+				{
+					name:["page2_monster1"],
+					maxWidth:480,
+					maxHeight:460,
+					minWidth:480,
+					minHeight:460,
+					x:116,
+					y:-580,
+					id:"ice1",
+					time:1860,
+					delay:540,
+					path:{
+						top:270,
+						ms:300,
+						loop:true,
+						rebound:254
+					}
+				}
+			]
+		},//冰1
+		{
+			obj:$(".section3"),
+			img:[
+				{name:["aperture"],maxWidth:10080,maxHeight:645,minWidth:720,minHeight:645,x:0,y:-118,display:true,id:"IDaperture2",time:60,cycle:true,interval:2400},
+				{
+					name:["page2_monster2"],
+					maxWidth:480,
+					maxHeight:417,
+					minWidth:480,
+					minHeight:417,
+					x:128,
+					y:-580,
+					id:"ice2",
+					time:1860,
+					delay:540,
+					path:{
+						top:270,
+						ms:300,
+						loop:true,
+						rebound:254
+					}
+				}
+			]
+		},//冰2
+		{
+			obj:$(".section4"),
+			img:[
+				{name:["aperture"],maxWidth:10080,maxHeight:645,minWidth:720,minHeight:645,x:0,y:-118,display:true,id:"IDaperture3",time:60,cycle:true,interval:2400},
+				{
+					name:["page2_monster3"],
+					maxWidth:480,
+					maxHeight:460,
+					minWidth:480,
+					minHeight:460,
+					x:120,
+					y:-550,
+					id:"fire1",
+					time:1860,
+					delay:540,
+					path:{
+						top:270,
+						ms:300,
+						loop:true,
+						rebound:254
+					}
+				}
+			]
+		},//炎1
+		{
+			obj:$(".section5"),
+			img:[
+				{name:["aperture"],maxWidth:10080,maxHeight:645,minWidth:720,minHeight:645,x:0,y:-118,display:true,id:"IDaperture4",time:60,cycle:true,interval:2400},
+				{
+					name:["page2_monster4"],
+					maxWidth:620,
+					maxHeight:430,
+					minWidth:620,
+					minHeight:430,
+					x:54,
+					y:-560,
+					id:"fire2",
+					time:1860,
+					delay:540,
+					path:{
+						top:260,
+						ms:300,
+						loop:true,
+						rebound:244
+					}
+				}
+			]
+		},//炎2
+		{
+			obj:$(".section6"),
+			img:[
+				{name:["aperture"],maxWidth:10080,maxHeight:645,minWidth:720,minHeight:645,x:0,y:-118,display:true,id:"IDaperture5",time:60,cycle:true,interval:2400},
+				{
+					name:["page2_monster5"],
+					maxWidth:500,
+					maxHeight:500,
+					minWidth:500,
+					minHeight:500,
+					x:145,
+					y:-510,
+					id:"wood1",
+					time:1860,
+					delay:540,
+					path:{
+						top:230,
+						ms:300,
+						loop:true,
+						rebound:214
+					}
+				}
+			]
+		},//木1
+		{
+			obj:$(".section7"),
+			img:[
+				{name:["aperture"],maxWidth:10080,maxHeight:645,minWidth:720,minHeight:645,x:0,y:-118,display:true,id:"IDaperture6",time:60,cycle:true,interval:2400},
+				{
+					name:["page2_monster6"],
+					maxWidth:490,
+					maxHeight:417,
+					minWidth:490,
+					minHeight:417,
+					x:134,
+					y:-550,
+					id:"wood2",
+					time:1860,
+					delay:540,
+					path:{
+						top:230,
+						ms:300,
+						loop:true,
+						rebound:214
+					}
+				}
+			]
+		},//木2
+		{
+			obj:$(".section8"),
+			img:[
+				{name:["aperture"],maxWidth:10080,maxHeight:645,minWidth:720,minHeight:645,x:0,y:-118,display:true,id:"IDaperture7",time:60,cycle:true,interval:2400},
+				{
+					name:["page2_monster7"],
+					maxWidth:520,
+					maxHeight:563,
+					minWidth:520,
+					minHeight:563,
+					x:134,
+					y:-470,
+					id:"electricity1",
+					time:1860,
+					delay:540,
+					path:{
+						top:230,
+						ms:300,
+						loop:true,
+						rebound:214
+					}
+				}
+			]
+		},//电1
+		{
+			obj:$(".section9"),
+			img:[
+				{name:["aperture"],maxWidth:10080,maxHeight:645,minWidth:720,minHeight:645,x:0,y:-118,display:true,id:"IDaperture8",time:60,cycle:true,interval:2400},
+				{
+					name:["page2_monster8"],
+					maxWidth:280,
+					maxHeight:417,
+					minWidth:280,
+					minHeight:417,
+					x:230,
+					y:-530,
+					id:"electricity2",
+					time:1860,
+					delay:540,
+					path:{
+						top:230,
+						ms:300,
+						loop:true,
+						rebound:214
+					}
+				}
+			]
+		}//电2
+	],
+	maxPage:9,
+	callback:function(){
+		canvas.anim(0);
+	}
+})
+/*
+ obj元素对象
+ img每个canvas下的动画属性
+ id生成canvas给它添加的id
+ maxWidth && maxHeight 图片总高度长度
+ minWidth && minHeight 单帧的宽度与高度
+ x && y 元素生成的位置
+ time 每帧切换的时间 
+ interval 动画间隔时间 
+ cycle 每次走到最后一帧跳到第一帧继续执行（默认执行到最后一帧倒序执行)
+ path animate动画路径
+ loop animate是否循环
+*/
+var $page_slide = [$(".page_slide1"),$(".page_slide2"),$(".page_slide3"),$(".page_slide4")],$page_slideAll = $(".page_slide1,.page_slide2,.page_slide3,.page_slide4"),$section = [$(".section2"),$(".section3"),$(".section4"),$(".section5"),$(".section6"),$(".section7"),$(".section8"),$(".section9")],$sectionAll = $(".section2,.section3,.section4,.section5,.section6,.section7,.section8,.section9"),$IDaperture,$IDapertureAll,pageNum = 0;
+
+$(window).resize(function(){
+	window.location.reload();
+});
+
+var full=$('#dowebok').fullpage({
+	scrollOverflow:true,
+	slidesNavigation:true,
+	loopHorizontal:false,
+	onLeave:function(anchorLink, index,nextIndex){
+		clearInterval(canvas.intertimer)
+		canvas.nextIndex = index-1;
+		if(anchorLink == 2){
+			canvas.newDom(false,canvas.slideIndex);
+			$section[canvas.slideIndex-1].css("background-size","100%")
+		}else{
+			canvas.newDom(false,anchorLink-1);
+		}
+		//console.log(anchorLink, index,nextIndex)
+	},//离开某一页
+	afterLoad:function(anchorLink,index,slideIndex,direction){
+		pageNum = index;
+		if(index == 2 && canvas.slideIndex == 1){
+			$page_slide[(canvas.slideIndex-1)/2].show()
+		}else if(index == 2){
+			$page_slide[0].show();
+		}else{
+			$page_slide[0].hide();
+		}
+
+		if(canvas.nextIndex >= 2){
+			return false;
+		}
+		if( canvas.nextIndex == 1){
+			canvas.anim(canvas.slideIndex)
+		}else{
+			canvas.anim(canvas.nextIndex)
+		}
+	},//到达某一页
+
+	onSlideLeave:function(anchorLink,index,slideIndex,direction){
+		canvas.nextIndex = 1+slideIndex;
+		$sectionAll.css("background-size",0)
+
+		if(slideIndex%2 == 1 && direction == "right" ){
+			$section[slideIndex+1].css("background-size","100%")
+		}else if(slideIndex%2 == 0 && direction == "left"){
+			$section[slideIndex-1].css("background-size","100%")
+		}
+		$IDapertureAll.hide();
+		//console.log(slideIndex%2) $IDaperture
+
+	},//离开某一页
+	afterSlideLoad:function(anchorLink,index,slideIndex,direction){
+		//setUp.singleStop = true;
+		canvas.newDom(false,canvas.nextIndex);
+		canvas.nextIndex = 1+slideIndex;
+		canvas.slideIndex = slideIndex+1;
+
+		canvas.anim(slideIndex+1)
+		$IDapertureAll.hide();
+
+		$IDaperture[slideIndex].show()
+		if(slideIndex <= 1){
+			$page_slideAll.hide();
+			$page_slide[0].show();
+		}else if(slideIndex <= 3){
+			$page_slideAll.hide();
+			$page_slide[1].show();
+		}else if(slideIndex <= 5){
+			$page_slideAll.hide();
+			$page_slide[2].show();
+		}else{
+			$page_slideAll.hide();
+			$page_slide[3].show();
+		}
+	},//到达某一页
+	afterRender:function(){
+		var $footer_up = $(".footer_up2"),$slimScrollBar = $(".slimScrollBar"),$fp_scrollable = $(".fp-scrollable");
+		$(".main").css("opacity",1);
+		$(".load-container").remove();
+		$IDaperture = [$("#IDaperture1"),$("#IDaperture2"),$("#IDaperture3"),$("#IDaperture4"),$("#IDaperture5"),$("#IDaperture6"),$("#IDaperture7"),$("#IDaperture8")];
+		$IDapertureAll = $("#IDaperture1,#IDaperture2,#IDaperture3,#IDaperture4,#IDaperture5,#IDaperture6,#IDaperture7,#IDaperture8");;
+		$footer_up.on('touchend',function(){
+			$slimScrollBar.css("top",0)
+			$fp_scrollable.scrollTop(0)
+			$.fn.fullpage.moveTo(1,0);
+		})
+	}//初始化完成
+});
+
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=720,target-densitydpi=360, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>Canvas</title>
+<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body class="colorf4">
+
+
+<div class="header">
+	<div class="header_img"><img src="images/logo.png" alt=""></div>
+	<span class="header_text">魔域迷宫</span>
+	<a href="javascript:;" class="header_bun">立即下载</a>
+</div><!-- 顶部悬浮框 -->
+
+
+
+	<div class="section section6">
+		<!-- 导航 -->
+		<div>
+			<ul class="page3_nav">
+				<li class="page3_news">
+					<span>新闻</span>
+				</li>
+				<li class="page3_bulletin active">
+					<span>公告</span>
+				</li>
+				<li class="page3_activity">
+					<span>活动</span>
+				</li>
+				<li class="page3_raiders">
+					<span>攻略</span>
+				</li>
+			</ul>
+		</div>
+
+		<!-- 新闻列表 -->
+		<div class="page3_main">
+			<ul>
+				<li>
+					<div class="page3_main_box">
+						<span class="page3_main_effect">[公告]</span>
+						<a href="newsMain.html" class="page3_main_title">《魔域迷宫》Android和iOS部分</a>
+						<em class="page3_main_time">2016-09-18</em>
+					</div>
+				</li>
+				<li>
+					<div class="page3_main_box">
+						<span class="page3_main_effect">[公告]</span>
+						<a href="newsMain.html" class="page3_main_title">《魔域迷宫》Android和iOS部分</a>
+						<em class="page3_main_time">2016-09-18</em>
+					</div>
+				</li>
+				<li>
+					<div class="page3_main_box">
+						<span class="page3_main_effect">[公告]</span>
+						<a href="newsMain.html" class="page3_main_title">《魔域迷宫》Android和iOS部分</a>
+						<em class="page3_main_time">2016-09-18</em>
+					</div>
+				</li>
+				<li>
+					<div class="page3_main_box">
+						<span class="page3_main_effect">[公告]</span>
+						<a href="newsMain.html" class="page3_main_title">《魔域迷宫》Android和iOS部分</a>
+						<em class="page3_main_time">2016-09-18</em>
+					</div>
+				</li>
+			</ul>
+			<div class="page3_main_btnAll">
+				<a href="javascript:;" class="page3_main_btnUp">上一页</a>
+				<a href="javascript:;" class="page3_main_btnDown">下一页</a>
+			</div>
+		</div>
+		
+		<!-- 新闻内容 -->
+		<div class="news_main" style="display:none">
+			<div class="news_main_title">
+				<h6>标题中心</h6>
+				<small>2016-09-18</small>
+			</div>
+			<div class="news_main_main">
+				<img src="images/page2_1bg.jpg" alt="">
+				<p>魔域迷宫</p>
+				<p>魔域迷宫Android和iOS部分数据不互通公告不互通公不互通公不互
+				通公,不互通公不互通公不互通公不互通公不互,通公不互
+				通公droid和iOS部分数据不互通公告不互通公不互通公不
+				互通公,不互.</p>
+			</div>
+		</div>
+		
+		<!-- 底部 -->
+		<div class="footer">
+			<h6>长按下方二维码<br />识别关注微信公众号</h6>
+			<div class="f_qrcode">
+				<img src="images/qrcode.jpg" alt="">
+			</div>
+			<ul class="f_marketing">
+				<li class="weixin"><span>微信公众号</span></li>
+				<li class="sina"><span>新浪微博</span></li>
+				<li class="QQ"><span>官方QQ群</span></li>
+			</ul>
+			<!-- 回到顶部 -->
+			<div class="footer_up"></div>
+			<!-- 网站信息 -->
+			<div class="footer_data">
+				<ul class="f_remind">
+					<li>抵制不良游戏</li>
+					<li>谨防上当受骗</li>
+					<li>适度游戏益脑</li>
+					<li>沉迷游戏伤身</li>
+					<li>合理安排时间</li>
+					<li>享受健康生活</li>
+				</ul>
+				<p class="f_PutOnRecord">
+					文网文：浙网文[2015 ]0152-002号<br />
+					ICP证：浙B2-20150259<br />
+					浙公网安备：110105019888号
+				</p><br />
+				<p class="f_copyright">素宏网络公司版权所有</p>
+			</div>	
+		</div>
+
+
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+var $footer_up = $(".footer_up");
+$footer_up.on("touchend",function(){
+	$('html,body').animate({scrollTop:0})
+})
+</script>
+
+</body>
+</html>
